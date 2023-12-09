@@ -1,0 +1,41 @@
+.header {
+	display: grid;
+	grid-template-columns: 200px 1fr auto;
+	align-items: center;
+
+	height: 73px;
+	padding: 10px;
+}
+
+.header a:hover,
+.header svg:hover {
+	cursor: pointer;
+	color: rgb(186, 203, 203);
+}
+
+.logo {
+	display: grid;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.logoText {
+	color: var(--textColor);
+	font-size: 10px;
+	width: 120px;
+}
+
+.feedback {
+	display: grid;
+	grid-template-columns: auto repeat(3, minmax(10px, 15px));
+	gap: 20px;
+}
+
+.headerMiddle {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(60px, 100px));
+	justify-items: start;
+	gap: 20px;
+}

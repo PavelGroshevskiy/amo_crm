@@ -1,0 +1,49 @@
+.body {
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 362px 1fr 300px;
+	gap: 20px;
+	padding: 10px;
+	justify-items: end;
+}
+
+.topic {
+	font-size: 48px;
+}
+
+.welbex {
+	background: -webkit-linear-gradient(
+		40deg,
+		rgba(252, 176, 69, 1),
+		rgba(255, 63, 120, 1)
+	);
+	background-clip: text;
+	font-weight: 900;
+	line-height: 58px;
+	-webkit-text-fill-color: transparent;
+}
+
+.consultation {
+	gap: 20px;
+	display: grid;
+	width: 291px;
+	font-size: 18px;
+}
+
+.consultation span {
+	background: -webkit-linear-gradient(40deg, rgba(252, 176, 69, 1), rgba(253, 29, 29, 1));
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.adventages {
+	display: grid;
+
+	gap: 10px;
+	grid-template-columns: auto auto;
+	grid-auto-rows: auto;
+}
+
+.adventages > div {
+	justify-items: flex-end;
+}

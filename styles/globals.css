@@ -1,0 +1,26 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: var(--font-family);
+	color: var(--textColor);
+	background: var(--bgcolor);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--bgcolor: rgba(14, 16, 20, 1);
+	--textColor: rgba(228, 229, 234, 1);
+	--blue: rgba(64, 119, 243, 0.7);
+	--blue-hover: rgba(64, 119, 243, 1);
+	--font-family: "IBM Plex Sans", sans-serif;
+}

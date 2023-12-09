@@ -1,0 +1,39 @@
+.footer {
+	display: grid;
+	grid-template-columns: auto auto auto 1fr;
+	grid-template-rows: 2;
+	align-content: space-around;
+	gap: 60px;
+	background: var(--white);
+	height: 315px;
+	padding: 10px;
+	color: var(--gray-footer);
+}
+
+.footer > p {
+	display: grid;
+}
+
+.footer a:hover {
+	cursor: pointer;
+	color: rgb(186, 203, 203);
+}
+
+.contacts {
+	display: grid;
+	justify-items: end;
+	grid-template-columns: 1fr;
+}
+
+.mesengers svg {
+	margin: 10px;
+}
+
+.confidential {
+	margin-top: 90px;
+	font-size: 12px;
+	width: 218px;
+}
+.confidential a {
+	text-decoration: solid;
+}
